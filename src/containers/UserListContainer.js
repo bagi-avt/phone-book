@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import React, { Component } from "react";
-import UserList from "../components/UserList";
+import UserList from "../components/UserList/UserList";
 import { getUserListTC } from "../redux/actions";
 
 class UserListContainer extends Component {

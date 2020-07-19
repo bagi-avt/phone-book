@@ -6,7 +6,7 @@ import {
     inputNewUserEmailValue,
     createUserTC,
 } from "../redux/actions";
-import AddUser from "../components/AddUser";
+import AddUser from "../components/AddUser/AddUser";
 const mapStateToProps = (state) => ({ newUser: state.userPage.newUser });
 const mapDispatchToProps = {
     onClickAddUser,

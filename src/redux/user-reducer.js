@@ -13,7 +13,7 @@ const initialState = {
 };
 const userReducer = (state = initialState, action) => {
     switch (action.type) {
-        case types.SET_LIST_USERS:
+        case types.SET_USER_LIST:
             return {
                 ...state,
                 search: "",

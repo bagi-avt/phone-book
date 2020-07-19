@@ -2,7 +2,7 @@ import { getUserList, deleteUser, createUser, updataUser } from "../api/api";
 import * as types from "./types";
 
 export const setUserList = (userList) => ({
-    type: types.SET_LIST_USERS,
+    type: types.SET_USER_LIST,
     userList,
 });
 

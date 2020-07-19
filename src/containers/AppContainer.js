@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import { inputSearchValue, onClickAddUser } from "../redux/actions";
-import App from "../components/App";
+import App from "../components/App/App";
 const mapStateToProps = (state) => ({
     search: state.userPage.search,
     checkAddUser: state.userPage.checkAddUser,
